@@ -36,7 +36,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     width: 250px;
     height: 500px;
     overflow: hidden;
@@ -44,7 +44,8 @@ section#login {
     background-color: #f5eef2;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
-
+    
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -93,10 +94,11 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
-    transform: translateY(-11px);
+    
     border: none;
     border-radius: 5px;
     padding: 4px;
+    transform: translateY(-11px);
 }
 
 form > input[type=submit] {
