@@ -105,14 +105,14 @@ form > input[type=submit] {
     width: 100%;
     height: 40px;
     
-    background-color: #592256;
+    background-color: #dd1784;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 form > input[type=submit]:hover {
-    background-color: #8C4988;
+    background-color: #860c50;
     transition: .5s;
 }
 
@@ -124,11 +124,11 @@ form > a.botao {
     height: 40px;
     padding: 10px;
 
-    color: #A6325C;
+    color: #8b32a6;
     text-decoration: none;
 }
 form > a.botao:hover {
-    color: #590219;
+    color: #480259;
     text-decoration: underline;
     transition: .5s;
 }
